@@ -1,0 +1,195 @@
+body {
+  background-color: #1B1B25;
+  margin: 0px;
+  font-family: lovelo;
+}
+.bg{
+  height: 700px;
+  opacity: 1;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-image: url("gui/background/panorama_0.png");
+}
+
+.bg3{
+  height: 700px;
+  opacity: 1;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-image: url("gui/background/panorama_2.png");
+}
+
+
+
+.bg5{
+  height: 700px;
+  opacity: 1;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-image: url("gui/background/panorama_3.png");
+}
+
+#bg2{
+  background: rgba(27, 28, 37, 0.5);
+  height: 3000px;
+}
+.btn-01{
+  -webkit-tap-highlight-color: transparent;
+  font-family: arial;
+  font-size: 15px;
+  font-weight: bold;
+  height: 50px;
+  width: 150px;
+  border: 2px solid white;
+  color: black;
+  background: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn-01:hover{
+  background: transparent;
+  color: white;
+}
+
+
+
+
+.btn-02{
+  -webkit-tap-highlight-color: transparent;
+  font-family: arial;
+  font-size: 15px;
+  font-weight: bold;
+  height: 50px;
+  width: 150px;
+  border: 2px solid white;
+  color: white;
+  background: transparent;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn-02:hover{
+  background: white;
+  color: black;
+}
+
+details summary{
+  list-style: none;
+}
+
+details{
+  width: 300px;
+  color: whitesmoke;
+  background: rgba(27, 28, 37, 0.5);
+  padding-top: 17px;
+  padding-bottom: 17px;
+  transition: 1s;
+}
+
+details:hover{
+  box-shadow: 0px 0px 10px rgba(27, 28, 37, 0.5);
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+
+
+.btn-green{
+  background: linear-gradient(#1C1C1C 50%, black 50%);
+  font-family: arial;
+  height: 35px;
+  width: 150px;
+  color: white;
+  border: 0px solid transparent;
+  border-radius: 5px;
+  border-left: 3px solid green;
+  transition: 0.3s;
+  -webkit-tap-highlight-color: transparent;
+}
+.btn-green:hover{
+  cursor: pointer;
+  box-shadow: 0px 0px 10px black;
+}
+.btn-green:active{
+  background: linear-gradient(to bottom, #1C1C1C 50%, #101010 50%);
+}
+
+
+
+.btn-orange{
+  background: linear-gradient(#1C1C1C 50%, black 50%);
+  font-family: arial;
+  height: 35px;
+  width: 150px;
+  color: white;
+  border: 0px solid transparent;
+  border-radius: 5px;
+  border-left: 3px solid orangered;
+  transition: 0.3s;
+  -webkit-tap-highlight-color: transparent;
+}
+.btn-orange:hover{
+  cursor: pointer;
+  box-shadow: 0px 0px 10px black;
+}
+.btn-orange:active{
+  background: linear-gradient(to bottom, #1C1C1C 50%, #101010 50%);
+}
+
+
+.timer{
+  background: rgba(27, 28, 37, 0.5);
+  display: flex;
+  align-items: center;
+  height: 60px;
+  text-align: center;
+  max-width: 60px;
+  font-size: 35px;
+  font-family: lovelo;
+  width: 60px;
+  border: 8px solid transparent;
+  border-radius: 999999px;
+  transition: 1s;
+  animation-name: timer-anm;
+  animation-direction: alternate;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes timer-anm{
+  from{
+    border-left-color: rgba(27, 28, 37, 0.5);
+    border-right-color: rgba(27, 28, 37, 0);box-shadow: 0px 0px 0px rgba(255, 255, 255, 1);
+  }
+  to{
+    border-left-color: rgba(27, 28, 37, 0);
+    border-right-color: rgba(27, 28, 37, 0.5);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
+  }
+}
+
+
+
+
+.btn-04{
+    background: dodgerblue;
+  color: white;
+  height: 50px;
+  width: 200px;
+  border: 0px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.btn-04:hover{
+  background: skyblue;
+  box-shadow: 0px 0px 10px deepskyblue;
+}
+
+
+
+p{
+  line-height: 30px;
+  word-spacing: 10px;
+}
